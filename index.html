@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - Psicólogo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Dr. Higor Augusto</h1>
+    <p>Psicólogo Clínico</p>
+</header>
+
+<section class="about">
+    <h2>Sobre</h2>
+    <p>Sou um psicólogo clínico com mais de 10 anos de experiência ajudando pessoas a superarem seus desafios emocionais.</p>
+</section>
+
+<section class="services">
+    <h2>Serviços</h2>
+    <ul>
+        <li>Aconselhamento Individual</li>
+        <li>Terapia de Casal</li>
+        <li>Terapia Familiar</li>
+        <li>Psicoterapia Infantil</li>
+    </ul>
+</section>
+
+<section class="advantages">
+    <h2>Vantagens</h2>
+    <ul>
+        <li>Ambiente acolhedor e confidencial</li>
+        <li>Abordagem centrada no cliente</li>
+        <li>Horários flexíveis, incluindo noites e fins de semana</li>
+        <li>Primeira consulta gratuita</li>
+    </ul>
+</section>
+
+<section class="contact">
+    <h2>Entre em Contato</h2>
+    <form id="contactForm">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+    <div id="successMessage" style="display: none;">
+        <p>Obrigado! Sua mensagem foi enviada com sucesso.</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Dr. Higor Augusto - Todos os direitos reservados - PTI Web Stands Projeto SENAC.</p>
+</footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>
